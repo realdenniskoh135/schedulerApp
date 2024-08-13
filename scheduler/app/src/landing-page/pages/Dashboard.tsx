@@ -12,7 +12,7 @@ const profile = {
 
 export default function Dashboard() {
   return (
-    <div className="flex flex-col lg:flex-row pt-14 w-full">
+    <div className="flex flex-col lg:flex-row pt-12 w-full">
       {/* Left Column: Profile Section */}
       <div className="w-full lg:w-[40%] p-6">
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6">
