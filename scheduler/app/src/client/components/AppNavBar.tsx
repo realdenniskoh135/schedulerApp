@@ -12,11 +12,10 @@ import { DocsUrl, BlogUrl } from '../../shared/common';
 import DarkModeSwitcher from './DarkModeSwitcher';
 
 const navigation = [
-  { name: 'AI Scheduler (Demo App)', href: routes.DemoAppRoute.build() },
-  { name: 'File Upload (AWS S3)', href: routes.FileUploadRoute.build() },
-  { name: 'Pricing', href: routes.PricingPageRoute.build() },
-  { name: 'Documentation', href: DocsUrl },
-  { name: 'Blog', href: BlogUrl },
+  { name: 'My Schedule', href: '/schedule' },
+  { name: '1-to-1 Call', href: '/1-to-1' },
+  { name: 'Priority Email', href: '/priority-email' },
+  { name: 'Join Call', href: '/join' }
 ];
 
 const NavLogo = () => <img className='h-8 w-8' src={logo} alt='Your SaaS App' />;

@@ -13,7 +13,7 @@ import { UserMenuItems } from '../../user/UserMenuItems';
 interface NavigationItem {
   name: string;
   href: string;
-};
+}
 
 export default function Header({ navigation }: { navigation: NavigationItem[] }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -31,7 +31,7 @@ export default function Header({ navigation }: { navigation: NavigationItem[] })
             className='flex items-center -m-1.5 p-1.5 text-gray-900 duration-300 ease-in-out hover:text-yellow-500'
           >
             <NavLogo />
-            <span className='ml-2 text-sm font-semibold leading-6 dark:text-white'>Your Saas</span>
+            <span className='ml-2 text-sm font-semibold leading-6 dark:text-white'>AdvisorAI</span>
           </a>
         </div>
         <div className='flex lg:hidden'>
@@ -56,7 +56,6 @@ export default function Header({ navigation }: { navigation: NavigationItem[] })
           ))}
         </div>
         <div className='hidden lg:flex lg:flex-1 lg:justify-end lg:align-end'>
-          {/* <!-- Dark Mode Toggler --> */}
           <div className='flex items-center gap-3 2xsm:gap-7'>
             <ul className='flex justify-center items-center gap-2 2xsm:gap-4'>
               <DarkModeSwitcher />
@@ -78,7 +77,7 @@ export default function Header({ navigation }: { navigation: NavigationItem[] })
         <Dialog.Panel className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 dark:bg-boxdark dark:text-white'>
           <div className='flex items-center justify-between'>
             <a href='/' className='-m-1.5 p-1.5'>
-              <span className='sr-only'>Your SaaS</span>
+              <span className='sr-only'>AdvisorAI</span>
               <NavLogo />
             </a>
             <button
@@ -123,5 +122,5 @@ export default function Header({ navigation }: { navigation: NavigationItem[] })
         </Dialog.Panel>
       </Dialog>
     </header>
-  )
+  );
 }

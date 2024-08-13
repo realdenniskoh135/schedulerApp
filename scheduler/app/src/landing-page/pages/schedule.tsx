@@ -3,7 +3,7 @@ import OpenAILogo from "../logos/OpenAILogo";
 import PrismaLogo from "../logos/PrismaLogo";
 import SalesforceLogo from "../logos/SalesforceLogo";
 
-export default function Clients() {
+export default function schedule() {
   return (
     <div className='mt-12 mx-auto max-w-7xl px-6 lg:px-8 flex flex-col items-between gap-y-6'>
       <h2 className='mb-6 text-center font-semibold tracking-wide text-gray-500 dark:text-white'>
