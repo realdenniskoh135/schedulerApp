@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './LandingPage';
-import Schedule from './pages/Schedule';
+import Schedule from './pages/MySchedule';
 import OneToOneCall from './pages/OneToOneCall';
 import PriorityEmail from './pages/PriorityEmail';
 import JoinCall from './pages/JoinCall';

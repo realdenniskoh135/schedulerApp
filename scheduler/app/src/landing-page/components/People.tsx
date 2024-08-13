@@ -104,9 +104,9 @@ export default function People() {
     <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md mb-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Our Advisors</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-3xl">Our Advisors</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-          Our advising team consists of experienced academic counselors and peer advisors dedicated to guiding you through college/post-grad life.
+          Our advising team consists of experienced counselors.
           </p>
         </div>
         <ul

@@ -1,5 +1,5 @@
 import React from 'react';
-import People from '../pages/People'; // Adjust the path based on your directory structure
+import People from '../components/People';
 
 // Fake profile
 const profile = {

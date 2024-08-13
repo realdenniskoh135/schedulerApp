@@ -1,8 +1,12 @@
 import Header from './components/Header';
-import Hero from './components/Hero';
+import Hero from './pages/Hero';
+//import Schedule from './pages/MySchedule';
+//import OneToOneCall from './pages/OneToOneCall';
+//import PriorityEmail from './pages/PriorityEmail';
+//import JoinCall from './pages/JoinCall';
 
 const landingPageNavigation = [
-  { name: 'My Schedule', href: '/schedule' },
+  { name: 'My Schedule', href: '/Schedule' },
   { name: '1-to-1 Call', href: '/1-to-1' },
   { name: 'Priority Email', href: '/priority-email' },
   { name: 'Join Call', href: '/join' }
