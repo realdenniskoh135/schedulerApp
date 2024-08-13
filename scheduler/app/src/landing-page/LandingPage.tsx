@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import Hero from './pages/Hero';
+import Hero from './pages/Dashboard';
 import Schedule from './pages/MySchedule';
 import OneToOneCall from './pages/OneToOneCall';
 import PriorityEmail from './pages/PriorityEmail';
