@@ -3,9 +3,9 @@ import People from '../components/People';
 
 // Fake profile
 const profile = {
-  name: "John Doe",
-  email: "john.doe@example.com",
-  bio: "A short bio about John Doe. He is a software engineer with a passion for building web applications.",
+  name: "Dennis Koh",
+  email: "dkoh135@berkeley.edu",
+  bio: "A small description of what can the university help with if you book a session",
   avatarUrl: "https://via.placeholder.com/150", // Replace with college logo
   college: "University of California, Berkeley" // Replace with college name
 };
@@ -27,7 +27,7 @@ export default function Dashboard() {
                 {profile.name}
               </h2>
               <p className="text-gray-600 dark:text-gray-300">{profile.email}</p>
-              <p className="text-gray-600 dark:text-gray-300">{profile.college}</p>
+              <p className="text-gray-600 font-bold dark:text-gray-300">{profile.college}</p>
             </div>
           </div>
           <p className="mt-4 text-gray-600 dark:text-gray-300">
