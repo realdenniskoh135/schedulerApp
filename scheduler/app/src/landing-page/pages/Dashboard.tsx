@@ -1,10 +1,8 @@
 import React from 'react';
-import People from '../components/People';
+import Calendar from '../components/Calendar'; // Import the Calendar component
 
 // Fake profile
 const profile = {
-  name: "Dennis Koh",
-  email: "dkoh135@berkeley.edu",
   bio: "A small description of what can the university help with if you book a session",
   avatarUrl: "https://via.placeholder.com/150", // Replace with college logo
   college: "University of California, Berkeley" // Replace with college name
@@ -14,19 +12,14 @@ export default function Dashboard() {
   return (
     <div className="flex flex-col lg:flex-row pt-12 w-full">
       {/* Left Column: Profile Section */}
-      <div className="w-full lg:w-[40%] p-6">
+      <div className="w-full lg:w-[30%] p-6">
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6">
           <div className="flex items-center">
             <img
               className="w-24 h-24 rounded-full"
               src={profile.avatarUrl}
-              alt={`${profile.name}'s avatar`}
             />
             <div className="ml-4">
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-                {profile.name}
-              </h2>
-              <p className="text-gray-600 dark:text-gray-300">{profile.email}</p>
               <p className="text-gray-600 font-bold dark:text-gray-300">{profile.college}</p>
             </div>
           </div>
@@ -36,11 +29,9 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {/* Right Column: People */}
-      <div className="w-full lg:w-[60%] p-6">
-        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6">
-          <People />
-        </div>
+      {/* Right Column: Calendar */}
+      <div className="w-full lg:w-[70%] p-6">
+        <Calendar />
       </div>
     </div>
   );
