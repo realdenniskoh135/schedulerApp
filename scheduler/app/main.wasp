@@ -92,7 +92,10 @@ app OpenSaaS {
 
 route LandingPageRoute { path: "/", to: LandingPage }
 page LandingPage {
+<<<<<<< HEAD
   authRequired: true,
+=======
+>>>>>>> a611305392a06a4890c81a73841c0c95ed3f2233
   component: import LandingPage from "@src/landing-page/LandingPage"
 }
 

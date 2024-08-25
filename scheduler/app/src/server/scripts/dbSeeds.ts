@@ -25,7 +25,10 @@ function generateMockUserData(): MockUserData {
   const lastName = faker.person.lastName();
   const subscriptionStatus = faker.helpers.arrayElement<SubscriptionStatus | null>(['active', 'cancel_at_period_end', 'past_due', 'deleted', null]);
   const now = new Date();
+<<<<<<< HEAD
   const about = "I am a university student"
+=======
+>>>>>>> a611305392a06a4890c81a73841c0c95ed3f2233
   const createdAt = faker.date.past({ refDate: now });
   const lastActiveTimestamp = faker.date.between({ from: createdAt, to: now });
   const credits = subscriptionStatus ? 0 : faker.number.int({ min: 0, max: 10 });
@@ -34,7 +37,10 @@ function generateMockUserData(): MockUserData {
     email: faker.internet.email({ firstName, lastName }),
     username: faker.internet.userName({ firstName, lastName }),
     createdAt,
+<<<<<<< HEAD
     about,
+=======
+>>>>>>> a611305392a06a4890c81a73841c0c95ed3f2233
     lastActiveTimestamp,
     isAdmin: false,
     sendNewsletter: false,
