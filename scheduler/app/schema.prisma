@@ -10,11 +10,7 @@ generator client {
 model User {
   id                        String          @id @default(uuid())
   createdAt                 DateTime        @default(now())
-<<<<<<< HEAD
   about                     String?          
-=======
-
->>>>>>> a611305392a06a4890c81a73841c0c95ed3f2233
   email                     String?         @unique
   username                  String?         @unique
   lastActiveTimestamp       DateTime        @default(now())
