@@ -1,9 +1,6 @@
 import React from 'react';
 import Calendar from '../components/Calendar'; // Import the Calendar component
-<<<<<<< HEAD
 import { useAuth } from 'wasp/client/auth';
-=======
->>>>>>> a611305392a06a4890c81a73841c0c95ed3f2233
 
 // Fake profile
 const profile = {
@@ -13,19 +10,12 @@ const profile = {
 };
 
 export default function Dashboard() {
-<<<<<<< HEAD
   const { data: user } = useAuth();
 
   return (
     <div className="flex flex-col lg:flex-row pt-12 w-full">
       {/* Left Column: Profile Section */}
       <div className="w-full lg:w-[40%] p-6">
-=======
-  return (
-    <div className="flex flex-col lg:flex-row pt-12 w-full">
-      {/* Left Column: Profile Section */}
-      <div className="w-full lg:w-[30%] p-6">
->>>>>>> a611305392a06a4890c81a73841c0c95ed3f2233
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6">
           <div className="flex items-center">
             <img
@@ -36,13 +26,10 @@ export default function Dashboard() {
               <p className="text-gray-600 font-bold dark:text-gray-300">{profile.college}</p>
             </div>
           </div>
-<<<<<<< HEAD
               <div className='py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6'>
                 <dt className='text-sm font-medium text-gray-500 dark:text-white'>Email address</dt>
                 <dd className='mt-1 text-sm text-gray-900 dark:text-gray-400 sm:col-span-2 sm:mt-0'>{user?.about}</dd>
               </div>
-=======
->>>>>>> a611305392a06a4890c81a73841c0c95ed3f2233
           <p className="mt-4 text-gray-600 dark:text-gray-300">
             {profile.bio}
           </p>
